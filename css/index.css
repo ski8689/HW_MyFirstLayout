@@ -1,9 +1,16 @@
+
+
 .header{
     background-image: url(../Images/background.png);
     background-size: cover;
     color: black;
     text-align: center;
     padding: 30px;
+}
+
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -30,14 +37,14 @@ button{
     font-weight: bold;
     padding: 10px;
 }
+
+/*Footer Components*/
+
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: lightgrey;
     background-color: #2d2d2d;
-    margin-top: 50px;
-    height: 200px;
+    padding: 60px;
+    height: 180px;
 }
 .footer a {
     padding: 10px 20px;
@@ -46,7 +53,7 @@ button{
 .footer h2{
     color: lightgrey;
 }
-body{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.footer-links a {
+    display: inline;
 }
